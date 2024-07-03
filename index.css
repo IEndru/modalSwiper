@@ -248,7 +248,7 @@
 @media only screen and (max-width: 1023px) {
     .modal__content {
         background: #fff;
-        border-radius: unset;
+        /*border-radius: unset;*/
         margin: 0;
     }
 }
