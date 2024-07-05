@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             zoom: {
                 maxRatio: 3, // Максимальный зум
-                minRatio: 1, // Минимальный зум
+                minRatio: 0, // Минимальный зум
                 enabled: isMobile, // Включаем зум только на мобильных устройствах
                 limitToOriginalSize: true,
             },

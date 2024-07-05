@@ -131,6 +131,7 @@
     padding-bottom: 3rem;*/
     max-width: 780px;
     max-height: 780px;
+    background-color: #a7a7aa;
 }
 
 @media only screen and (max-width: 1600px) {
