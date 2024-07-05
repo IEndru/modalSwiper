@@ -282,6 +282,14 @@
     right: 20px !important;
 }
 
+.swiper-button-prev:after {
+   padding-right: 4px;
+}
+
+.swiper-button-next:after {
+    padding-left: 4px;
+}
+
 
 
 /*@media (max-width: 560px) {
