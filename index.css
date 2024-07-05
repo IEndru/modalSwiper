@@ -133,6 +133,13 @@
     max-height: 780px;
 }
 
+@media only screen and (max-width: 1600px) {
+    .swiper {
+        max-width: 720px;
+        max-height: 720px;
+    }
+}
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;
