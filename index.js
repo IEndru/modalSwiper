@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 prevEl: '.swiper-button-prev',
             },
             zoom: {
-                maxRatio: 3, // Максимальный зум
+                maxRatio: 2, // Максимальный зум
                 minRatio: 1, // Минимальный зум
-                zoomMax: 3, // Максимальный зум
+                zoomMax: 2, // Максимальный зум
                 zoomMin: 1,
                 enabled: isMobile, // Включаем зум только на мобильных устройствах
                 limitToOriginalSize: true,
