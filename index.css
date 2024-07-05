@@ -233,8 +233,8 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
     background-color: #fff;
     border-radius: 50%;
     display: flex;
@@ -247,12 +247,12 @@
 .swiper-button-prev:after,
 .swiper-button-next:after {
     font-size: 19px !important;
-    color: #9292A2 !important;
+    /*color: #9292A2 !important;*/
+    color:  #bf0702 !important;
+
     font-weight: bold !important;
     border-radius: 50%;
     background-color: #fff;
-    width: 40px;
-    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,6 +263,16 @@
 .swiper-button-next:hover {
     background-color: #f2f2f2;
 }
+
+.swiper-button-prev {
+    left: 20px !important;
+}
+
+.swiper-button-next {
+    right: 20px !important;
+}
+
+
 
 /*@media (max-width: 560px) {
     .swiper-button-next,
