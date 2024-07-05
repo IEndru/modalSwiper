@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
             zoom: {
                 //maxRatio: 3, // Максимальный зум
                 //minRatio: 1, // Минимальный зум
-                maxRatio: 3,
-                minScale: 1,
+                zoomMax: 3, // Максимальный зум
+                zoomMin: 1,
                 enabled: isMobile, // Включаем зум только на мобильных устройствах
                 limitToOriginalSize: true,
 
