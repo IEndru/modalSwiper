@@ -90,22 +90,17 @@
 
 
 .modal__close_custom {
-    background-color: #bf0702;
+    background-color: #fff;
     width: 32px;
-    height: 32px;
+    height: 70px;
     border-radius: 10px;
-    right: -16px;
+    right: 0px;
     top: -32px;
     z-index: 1;
-    align-items: center !important;
+    align-items: flex-start !important;
 }
 
-@media only screen and (max-width: 800px) {
-    .modal__close_custom {
-        right: 2px;
-        top: -32px;
-    }
-}
+
 
 .modal__content {
     background: #fff;
@@ -138,7 +133,7 @@
     padding-bottom: 3rem;*/
     max-width: 780px;
     max-height: 780px;
-    background-color: #a7a7aa;
+   /* background-color: #a7a7aa;*/
 }
 
 @media only screen and (max-width: 1600px) {
@@ -257,7 +252,7 @@
 .swiper-button-next:after {
     font-size: 19px !important;
     /*color: #9292A2 !important;*/
-    color:  #bf0702 !important;
+    color:  #9292A2 !important;
 
     font-weight: bold !important;
     border-radius: 50%;
